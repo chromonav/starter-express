@@ -34,20 +34,20 @@ module.exports = {
    * The path to the `data` directory, relative to remix.config.js. Defaults
    * to "data". The data directory contains data modules for your routes.
    */
-  dataDirectory: "data-build",
+  // dataDirectory: "data-build",
 
   /**
    * The path to the browser build, relative to remix.config.js. Defaults to
    * `public/build`. The browser build contains all public JavaScript and CSS
    * files that are created when building your routes.
    */
-  browserBuildDirectory: "public/build",
+  browserBuildDirectory: "../sfa_website/public/build",
 
   /**
    * The URL prefix of the browser build with a trailing slash. Defaults to
    * `/build/`.
    */
-  publicPath: "/build/",
+  publicPath: "/assets/sfa_website/build",
 
   /**
    * The path to the server build directory, relative to remix.config.js.
